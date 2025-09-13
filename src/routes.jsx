@@ -3,6 +3,8 @@ import './index.css'
 import AboutMe from './pages/AboutMe/AboutMe'
 import Home from './pages/Home/Home'
 import Menu from './components/Menu/Menu'
+import Footer from 'components/Footer/Footer'
+import DefaultPage from 'pages/DefaultPage/DefaultPage'
 
 function AppRoutes() {
   
@@ -10,10 +12,14 @@ function AppRoutes() {
     <BrowserRouter>
     <Menu/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/aboutMe' element={<AboutMe/>}/>
+        <Route path='/' element={<DefaultPage/>}>
+          <Route index element={<Home/>}/>
+          <Route path='aboutMe' element={<AboutMe/>}/>
+        </Route>
         <Route path='*' element={<h1>ERROR 404 NOT FOUND</h1>}/>
       </Routes>
+
+      <Footer/>
     </BrowserRouter>
   )
 }

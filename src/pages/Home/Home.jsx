@@ -1,10 +1,20 @@
+import Banner from 'components/Banner/Banner';
 import './home.css'
+
+import postsList from 'assets/json/posts.json'
+import Post from 'components/Post/Post';
 
 const Home = () => {
     return(
-        <>
-            <h1>Home Page</h1>
-        </>
+            <ul className='posts'>
+                {postsList.map((value) => {
+                return (
+                    <li key={value.id}>
+                        <Post post={value}/>
+                    </li>
+
+                )})}
+            </ul>
     );
 }
 
