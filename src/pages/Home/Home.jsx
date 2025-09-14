@@ -2,7 +2,7 @@ import Banner from 'components/Banner/Banner';
 import './home.css'
 
 import postsList from 'assets/json/posts.json'
-import Post from 'components/Post/Post';
+import PostCard from 'components/PostCard/PostCard';
 
 const Home = () => {
     return(
@@ -10,7 +10,7 @@ const Home = () => {
                 {postsList.map((value) => {
                 return (
                     <li key={value.id}>
-                        <Post post={value}/>
+                        <PostCard post={value}/>
                     </li>
 
                 )})}

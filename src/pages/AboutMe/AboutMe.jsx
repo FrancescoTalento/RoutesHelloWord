@@ -18,25 +18,37 @@ const AboutMe = ()=>{
                 className='fotoSobreMim '
             />
 
-            <p className={"paragrafo"}>
-                Oi, tudo bem? Eu sou instrutor de Front-end na Alura e estou feliz de te ver por aqui.
-            </p>
-            <p className={"paragrafo"}>
-                Minha história com programação começou no Instituto Federal do Piauí (IFPI), quando fiz o ensino médio integrado ao curso de Informática. Eu aprendi lógica de programação e o básico de várias linguagens, como PHP, Python, Java, mas sem aprofundar muito em cada uma delas. Eu gostava muito de estudar programação, mas na época não fazia ideia de que trabalharia com isso hoje.
-            </p>
-            <p className={"paragrafo"}>
-                No ensino superior, escolhi cursar Engenharia Elétrica na Universidade Federal do Piauí (UFPI). Lá eu consegui entrar no PET (Programa de Educação Tutorial), um grupo acadêmico que contribui de diversas formas para o curso. Lá eu tive a oportunidade de estudar desenvolvimento web para ser um dos mantenedores do site deles.
-            </p>
-            <p className={"paragrafo"}>
-                Com isso tive minha experiência de dev mais próxima da realidade, com prazos de implementação para o site, e aprendi muito enquanto codificava.
-            </p>
-            <p className={"paragrafo"}>
-                E foi enquanto eu estava no PET que decidi procurar um estágio em desenvolvimento web. Eu encontrei uma vaga na Alura para o Scuba Team e percebi que ela aliava duas paixões minhas: programação e educação. Para minha felicidade, fui escolhido para fazer parte do time.
+         <p className={"paragrafo"}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut risus ut sem tristique sagittis.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut risus ut sem tristique sagittis.
+        </p>
+        <p className={"paragrafo"}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer at justo sed lorem tincidunt luctus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer at justo sed lorem tincidunt luctus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer at justo sed lorem tincidunt luctus.
+        </p>
+        <p className={"paragrafo"}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula orci vel neque cursus, nec facilisis nunc porta.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vehicula orci vel neque cursus, nec facilisis nunc porta.
+        </p>
+        <p className={"paragrafo"}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Ut fringilla purus sed lorem iaculis, et fermentum eros ullamcorper.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Ut fringilla purus sed lorem iaculis, et fermentum eros ullamcorper.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Ut fringilla purus sed lorem iaculis, et fermentum eros ullamcorper.
+        </p>
+        <p className={"paragrafo"}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut nibh id erat efficitur mattis sed in sem.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut nibh id erat efficitur mattis sed in sem.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut nibh id erat efficitur mattis sed in sem.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut nibh id erat efficitur mattis sed in sem.
+        </p>
+        <p className={"paragrafo"}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac massa vel felis bibendum tincidunt vitae vitae velit.
+            Lorem Xipsum dolor sit amet, consectetur adipiscing elit. Sed ac massa vel felis bibendum tincidunt vitae vitae velit.
+            Lorem Xipsum dolor sit amet, consectetur adipiscing elit. Sed ac massa vel felis bibendum tincidunt vitae vitae velit.
+            Lorem   
+        </p>
 
-            </p>
-            <p className={"paragrafo"}>
-                Desde então, tem sido aprenas aprendizados atrás de aprendizados. A Alura é uma escola não só para seus alunos e alunas, mas também para os colaboradores e colaboradoras. Hoje sou muito feliz de ter a oportunidade de trazer esses conteúdos ricos e encantadores para você. Espero que aprenda bastante!
-            </p>
         </PostModel>
         
     );
