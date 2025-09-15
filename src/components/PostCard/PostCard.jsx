@@ -1,5 +1,6 @@
 import { Link } from 'react-router';
 import './Post.css';
+import BotaoPrincipal from 'components/BotaoPrincipal/BotaoPrincipal';
 
 
 const PostCard = ({post})=>{
@@ -14,7 +15,7 @@ const PostCard = ({post})=>{
                 />
                 <h2 className='titulo'>{post.titulo}</h2>
 
-                <button className='botaoLer'>Ler</button>
+                <BotaoPrincipal>Ler</BotaoPrincipal>
             </div>
         </Link>
     )

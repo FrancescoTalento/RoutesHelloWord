@@ -1,7 +1,11 @@
+import BotaoPrincipal from 'components/BotaoPrincipal/BotaoPrincipal'
 import styles from './NotFound.module.css'
 import erro404 from 'assets/erro_404.png'
+import { useNavigate } from 'react-router'
 
 export default function NotFound(){
+    const navegate = useNavigate();
+
      return (
         <>
             <div className={styles.conteudoContainer}>
@@ -19,8 +23,14 @@ export default function NotFound(){
                     Aguarde uns instantes e recarregue a página, ou volte para a página inicial.
                 </p>
 
-                <div className={styles.botaoContainer}>
-                    <button>Voltar</button>
+                <div 
+                    className={styles.botaoContainer}
+                    onClick={()=> navegate(-1)}
+                >
+                    
+                    <BotaoPrincipal 
+                        tamanho='lg' 
+                    >Voltar</BotaoPrincipal>
                 </div>
 
                 <img
